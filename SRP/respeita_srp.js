@@ -63,7 +63,6 @@ class UserManager {
     }
   }
   
-  // Uso das classes UserManager e User
   const userManager = new UserManager();
   userManager.addUser(new User(1, "Alice", "alice@example.com"));
   userManager.updateUser(1, { name: "Alice Smith" });
